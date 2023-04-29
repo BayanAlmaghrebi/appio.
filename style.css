@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-expand-lg{
+display: flex !important;
+flex-basis: auto
+}
+.navbar-brand{
+ 
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    padding: 22px 0px 0px;
+    padding-left: -1px;
+  
+}
+
+.collapse{
+    padding: 0px 15px;
+    max-width: 85%
+}
+
+.text1{
+    color: #801f82;
+}
+
+.text2{
+color: #0E1133;
+}
+
+.text3{
+color: #505056;
+}
+
+.banner{
+    background-color: #f9f9f9;
+}
+

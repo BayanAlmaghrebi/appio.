@@ -1,17 +1,18 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 }
 .navbar-expand-lg{
 display: flex !important;
 flex-basis: auto
 }
 .navbar-brand{
- 
     box-sizing: border-box;
 }
-
+.container{
+    max-width: 1200px;
+}
 .container-fluid{
-    padding: 22px 0px 0px;
+    padding: 30px 0px 0px;
     padding-left: -1px;
   
 }
@@ -21,19 +22,67 @@ flex-basis: auto
     max-width: 85%
 }
 
+.banner{
+    background-color: #F9F9F9;
+    padding-top: 110px;
+    padding-bottom: 60px;
+}
+
+.all-text{
+    padding-right: 40px;
+}
+
 .text1{
-    color: #801f82;
+font-size: 14px;
+font-weight: 500;
+color: #822384;
 }
 
 .text2{
+font-size: 70px;
+font-weight: 700;
+line-height: 80px;
 color: #0E1133;
 }
 
 .text3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
 color: #505056;
 }
 
-.banner{
-    background-color: #f9f9f9;
+.banner-ba{
+    height: 150px;
+    width: 150px;
+    margin-left: 45px;
+    background-color: #801F82;
+    border-radius: 50%;
+    margin-top: 130px;
 }
 
+.img{
+    margin-top: -185px;
+    margin-left: -40px;
+ 
+}
+.dot{
+    position: absolute;
+    right: 196px;
+    bottom: -507px;
+    z-index: -1;
+}
+.btn{
+    border: 2px solid #801F82;
+    line-height: 55px;
+    padding: 0 40px;
+    font-size: 16px;
+    margin-top: 40px;
+    background-color: #fff;
+    color: #801F82;
+}
+
+.btn:hover{
+    background-color: #801F82;
+    color: #fff;
+}

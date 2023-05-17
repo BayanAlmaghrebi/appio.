@@ -2,6 +2,7 @@ body{
     font-family:'Roboto', sans-serif;
 }
 .navbar-expand-lg{
+    background-color: #F9F9F9;;
 display: flex !important;
 flex-basis: auto
 }
@@ -24,17 +25,19 @@ flex-basis: auto
 
 .banner{
     background-color: #F9F9F9;
-    padding-top: 110px;
+    padding-top: 10px;
     padding-bottom: 60px;
 }
 
 .all-text{
     padding-right: 40px;
+    margin-top: 200px;
 }
 
 .text1{
 font-size: 14px;
 font-weight: 500;
+
 color: #822384;
 }
 
@@ -52,26 +55,6 @@ color: #0E1133;
 color: #505056;
 }
 
-.banner-ba{
-    height: 150px;
-    width: 150px;
-    margin-left: 45px;
-    background-color: #801F82;
-    border-radius: 50%;
-    margin-top: 130px;
-}
-
-.img{
-    margin-top: -185px;
-    margin-left: -40px;
- 
-}
-.dot{
-    position: absolute;
-    right: 196px;
-    bottom: -507px;
-    z-index: -1;
-}
 .btn{
     border: 2px solid #801F82;
     line-height: 55px;
@@ -85,4 +68,26 @@ color: #505056;
 .btn:hover{
     background-color: #801F82;
     color: #fff;
+}
+
+
+.banner-ba{
+    height: 150px;
+    width: 150px;
+    margin-left: 55px;
+    background-color: #801F82;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.img{
+    margin-top: -185px;
+    margin-left: -40px;
+ 
+}
+.dot{
+    position: absolute;
+    right: 100px;
+    bottom: -170px;
+    z-index: -1;  
 }

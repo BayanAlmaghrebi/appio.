@@ -81,13 +81,15 @@ color: #505056;
 }
 
 .img{
+    
     margin-top: -185px;
     margin-left: -40px;
- 
+  position: relative;
 }
 .dot{
-    position: absolute;
-    right: 100px;
-    bottom: -170px;
-    z-index: -1;  
+  position: relative;
+    right: -450px;
+    bottom: 250px;
+    z-index: -1;
+  
 }
